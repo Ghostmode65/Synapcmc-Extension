@@ -4,7 +4,7 @@
 |---|---|------------|
 | ☑️ | Remote Server | Access JsMacro's from outside your game or your computer|
 | ☑️ | Package Manager | Easily share and access scripts from other players |
-| ☑️ | Creates one shared folder, all your scripts will be available on feather, lunar, prism, vanilla, and more. |
+| ☑️ | Unified Folder | Creates a shared folder, all your scripts will be available on feather, lunar, prism, vanilla, and more. |
 
 
 |  | Planned |
