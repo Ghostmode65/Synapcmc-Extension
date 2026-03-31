@@ -1,0 +1,1 @@
+Chat:log("Coming up with 54 ways to install Lua")

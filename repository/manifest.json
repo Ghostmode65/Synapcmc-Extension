@@ -1,0 +1,23 @@
+{
+  "name": "SynapMc's Repository",
+  "source": "https://github.com/Ghostmode65/Synapcmc-Extension/blob/main/repository/manifest.txt",
+  "author": "Ghostmode65",
+  "scripts": [
+    {
+      "name": "Jsmacro's  Lua Installer",
+      "author": "Ghostmode65",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/Lua-1.2.2.js",
+      "destination": "scripts/library/SynapMc/Lua/",
+      "version": "1.0.0",
+      "description": "Auto downloads the lua extension by wagyourtail the creator of Jsmacro's. ",
+      "imageurl": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/image.png",
+      "isApi": false,
+      "isExecuteReady": true,
+      "server": null,
+      "register": {
+        "type": "keydown",
+        "key": "key.keyboard.keypad.4"
+      }
+    }
+  ]
+}
