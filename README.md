@@ -2,14 +2,13 @@
 
 | ✅ | Features | |
 |---|---|------------|
-| ☑️ | Remote Server | Access JsMacro's from outside your game or your computer|
+| ☑️ | Remote Control | Access JsMacros from outside your game or your computer|
 | ☑️ | Package Manager | Easily share and access scripts from other players |
 | ☑️ | Unified Folder | Creates a shared folder, all your scripts will be available on feather, lunar, prism, vanilla, and more. |
 
 
 |  | Planned |
 |---|---|
-| ❌ | Easily add your own scripts to `installer.js` and share |
 | ❌ | Linux Support | 
 | ❌ | JsMacros Community Edition Support `Minecraft versions 1.21.4 - 1.21.11`|
 
