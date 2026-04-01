@@ -86,20 +86,6 @@
       "jsmacrosVersion": "1.9.2",
       "server": null,
       "register": null
-    },
-    {
-      "name": "Lua",
-      "author": "Wagyourtail",
-      "source": "",
-      "destination": "",
-      "version": "1.2.2",
-      "description": "Auto downloads the lua extension by wagyourtail the creator of Jsmacro's. ",
-      "imageurl": "",
-      "category": "jar",
-      "isExecuteReady": false,
-      "jsmacrosVersion": "1.9.2",
-      "server": null,
-      "register": null
     }
   ]
 }
