@@ -2,8 +2,20 @@
   "name": "SynapMc",
   "source": "https://github.com/Ghostmode65/Synapcmc-Extension",
   "author": "Ghostmode65",
-  "repos": [
-    "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/sub/extensions.json"
-  ],
-  "scripts": []
+  "scripts": [
+    {
+      "name": "Lua",
+      "author": "Wagyourtail",
+      "source": "https://github.com/JsMacros/JsMacros-Lua/releases/download/1.2.2/jsmacros-lua-1.2.2.jar",
+      "destination": "",
+      "version": "1.2.2",
+      "description": "Auto downloads the lua extension by wagyourtail the creator of Jsmacro's. ",
+      "imageurl": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/image.png",
+      "category": "jar",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
+      "server": null,
+      "register": null
+    }
+  ]
 }
