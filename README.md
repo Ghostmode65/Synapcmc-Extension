@@ -14,6 +14,8 @@ Synapmc a extension for [JsMacros](https://modrinth.com/mod/jsmacros).
 | ❌ | Linux Support | 
 | ❌ | JsMacros Community Edition Support `Minecraft versions 1.21.4 - 1.21.11`|
 
+To access the Repo dash board do `Jsmacros Settings → synapmc → Repos → Open Repo Browser` or in a script type `synapmc:repo():openBrowser()`
+
 **⚠️This is still in development**<br> 
 * Functions are subject to change
 
