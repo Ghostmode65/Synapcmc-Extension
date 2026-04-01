@@ -1,5 +1,7 @@
 # Synapcmc-Extension
 
+Synapmc a extension for [JsMacros](https://modrinth.com/mod/jsmacros).
+
 | ✅ | Features | |
 |---|---|------------|
 | ☑️ | Remote Control | Access JsMacros from outside your game or your computer|
