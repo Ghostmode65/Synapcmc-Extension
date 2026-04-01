@@ -4,20 +4,18 @@
   "author": "Ghostmode65",
   "scripts": [
     {
-      "name": "Lua Installer",
-      "author": "Ghostmode65",
-      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/Lua-1.2.2.js",
-      "destination": "scripts/macros/",
-      "version": "1.0.0",
+      "name": "Lua",
+      "author": "Wagyourtail",
+      "source": "https://github.com/JsMacros/JsMacros-Lua/releases/download/1.2.2/jsmacros-lua-1.2.2.jar",
+      "destination": "",
+      "version": "1.2.2",
       "description": "Auto downloads the lua extension by wagyourtail the creator of Jsmacro's. ",
       "imageurl": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/image.png",
-      "isApi": false,
-      "isExecuteReady": true,
+      "category": "jar",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
       "server": null,
-      "register": {
-        "type": "keydown",
-        "key": "key.keyboard.keypad.4"
-      }
+      "register": null
     }
   ]
 }
