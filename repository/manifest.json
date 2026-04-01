@@ -4,7 +4,7 @@
   "author": "Ghostmode65",
   "scripts": [
     {
-      "name": "Jsmacro's  Lua Installer",
+      "name": "Lua Installer",
       "author": "Ghostmode65",
       "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/autoinstall/Lua-1.2.2.js",
       "destination": "scripts/macros/",
