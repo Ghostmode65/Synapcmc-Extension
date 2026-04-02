@@ -1,1 +1,64 @@
 
+{
+  "name": "LuaJ",
+  "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/sub/lua/library.json",
+  "author": "Ghostmode65",
+  "scripts": [
+    {
+      "name": "GradientText",
+      "author": "Ghostmode65",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/Ghostmode65/library/GradientText.lua",
+      "destination": "scripts/library/",
+      "version": "1.0.0",
+      "description": "",
+      "imageurl": null,
+      "category": "api",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
+      "server": null,
+      "register": null
+    },
+    {
+      "name": "Lua Serpent",
+      "author": "Ghostmode65",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/Ghostmode65/library/serpent.lua",
+      "destination": "scripts/library/",
+      "version": "1.0.0",
+      "description": "Convert tables to strings and export",
+      "imageurl": null,
+      "category": "api",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
+      "server": null,
+      "register": null
+    },
+    {
+      "name": "Lua Json",
+      "author": "Ghostmode65",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/Ghostmode65/library/json.lua",
+      "destination": "scripts/library/",
+      "version": "1.0.0",
+      "description": "Encoding and decoding json",
+      "imageurl": null,
+      "category": "api",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
+      "server": null,
+      "register": null
+    },
+    {
+      "name": "Roman Digits",
+      "author": "Ghostmode65",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/Ghostmode65/library/roman.lua",
+      "destination": "scripts/library/",
+      "version": "1.0.0",
+      "description": "Number conversion XII -> 12 / 12 -> XII",
+      "imageurl": null,
+      "category": "api",
+      "isExecuteReady": false,
+      "jsmacrosVersion": null,
+      "server": null,
+      "register": null
+    }
+  ]
+}
