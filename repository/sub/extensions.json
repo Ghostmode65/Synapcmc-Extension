@@ -5,10 +5,10 @@
   "scripts": [
     {
       "name": "Lua 5.2",
-      "author": "Wagyourtail",
-      "source": "https://github.com/JsMacros/JsMacros-Lua/releases/download/1.2.2/jsmacros-lua-1.2.2.jar",
+      "author": "Wagyourtail, Ghostmode65",
+      "source": "https://github.com/Ghostmode65/JsMacros-Lua/releases/download/1.2.3/jsmacros-lua-1.2.3.jar",
       "destination": "",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "description": "Auto downloads the Lua extension by wagyourtail the creator of Jsmacro's. ",
       "imageurl": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/lua/image.png",
       "category": "jar",
