@@ -1,12 +1,12 @@
 {
   "name": "Debug",
-  "source": "",
+  "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/sub/js/debug.json",
   "author": "Ghostmode65",
   "scripts": [
     {
       "name": "Chat-log-Test",
       "author": "Ghostmode65",
-      "source": "",
+      "source": "https://raw.githubusercontent.com/Ghostmode65/Synapcmc-Extension/refs/heads/main/repository/js/debug/Test%20Macro.js",
       "destination": "scripts/macros/",
       "version": "1.0.0",
       "description": "Test Script",
