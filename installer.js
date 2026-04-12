@@ -9,8 +9,8 @@ const settings = {
 
 //Don't touch below
 const synapmc = {
-                    url: "https://github.com/Ghostmode65/Synapcmc-Extension/releases/download/v1.0.1/",
-                    jar: "synapmc-1.0.1.jar"
+                    url: "https://github.com/Ghostmode65/Synapcmc-Extension/releases/download/v1.0.3/",
+                    jar: "synapmc-1.0.3.jar"
 }
 
 const Installer = {};
