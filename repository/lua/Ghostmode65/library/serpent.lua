@@ -154,16 +154,35 @@ Serpent =  { _NAME = n, _COPYRIGHT = c, _DESCRIPTION = d, _VERSION = v, serializ
   block = function(a, opts) return s(a, merge({indent = '  ', sortkeys = true, comment = true}, opts)) end }
 
 Serpent.save = function(filepath,Table) --.roaming/.JsMacros/
+local respone,script = pcall(function()
     local _roaming = synapmc:roaming()
     local folder = _roaming..(filepath:match("(.*/)") or "")
     if not filepath:match("%.lua$") then filepath = filepath .. ".lua" end
     local file =  _roaming..filepath
         
     --if disableOverwrite and FS:exists(file) then return false end
-    if not FS:exists(file) then FS:createFile(folder,file,true) Client:waitTick() end
-        local content = Serpent.dump(Table)
-        FS:open(file):write(content)
+    if not FS:exists(file) then
+      if folder then FS:makeDir(folder) end
+      FS:createFile(folder,file,true) end
+        FS:open(file):write(Serpent.dump(Table))
     return true
+    end)
+    if not respone then Chat:log("§c[Serpent] §fFailed to save table "..filepath) return --[[function() Chat:log("§c[Serpent] &fFailed to access "..filepath) end]] end
+    return script
+end
+
+Serpent.open = function(filepath) --.roaming/.JsMacros/
+    if not filepath:match("%.lua$") then filepath = filepath .. ".lua" end
+
+    filepath = synapmc:roaming()..filepath
+    if not FS:exists(filepath) then Chat:log("§c[Serpent] §fSave does not exist: ".."\n§d"..filepath) return nil end
+
+    local success, result = pcall(function()
+        local script = loadfile(filepath)
+            return script and script() or nil
+        end)
+    if not success then Chat:log("§c[Serpent] §fFailed to access save: ".."\n§d"..filepath) return nil end
+    return result
 end
 
 return Serpent
