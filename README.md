@@ -9,10 +9,14 @@ Synapmc a extension for [JsMacros](https://modrinth.com/mod/jsmacros).
 | ☑️ | Unified Folder | Creates a shared folder, all your scripts will be available on feather, lunar, prism, vanilla, and more. |
 | ? | Mutli Language Support | Should be compatible with all current language extentions from wagyourtail |
 
+|  | Added |
+|---|---|
+| ✅ | JsMacros Community Edition Support `Minecraft versions 1.21.4 - 1.21.11`|
+
 |  | Planned |
 |---|---|
 | ❌ | Linux Support | 
-| ❌ | JsMacros Community Edition Support `Minecraft versions 1.21.4 - 1.21.11`|
+
 
 To access the Repo dash board do `Jsmacros Settings → synapmc → Repos → Open Repo Browser` or in a script type `synapmc:repo():openBrowser()`
 
